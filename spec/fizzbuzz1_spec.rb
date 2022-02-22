@@ -12,8 +12,13 @@ describe 'fizzbuzz' do
     end
 
     it 'returns "fizz" when passed 3' do
-      fizzbuzz = Fizzbuzz.new
-      expect(fizzbuzz.execute(3)).to eq('fizz')
-  end
+        fizzbuzz = Fizzbuzz.new
+        expect(fizzbuzz.execute(3)).to eq('fizz')
+    end
+
+    it 'returns "buzz" when passed 5' do
+        fizzbuzz = Fizzbuzz.new
+        expect(fizzbuzz.execute(5)).to eq('buzz')
+    end
 
 end
