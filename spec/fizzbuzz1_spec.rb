@@ -26,4 +26,9 @@ describe 'fizzbuzz' do
         expect(fizzbuzz.execute(15)).to eq('fizzbuzz')
     end
 
+    it 'returns "fizzbuzz" when passed 30' do
+        fizzbuzz = Fizzbuzz.new
+        expect(fizzbuzz.execute(30)).to eq('fizzbuzz')
+  end
+
 end
