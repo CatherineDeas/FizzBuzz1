@@ -1,6 +1,6 @@
 class Fizzbuzz
     def execute(number)
-        1
+        number
     end
 end
 
